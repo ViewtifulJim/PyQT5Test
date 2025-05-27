@@ -58,6 +58,13 @@ class MainWindow(QMainWindow):
                            label2.width(),
                            label2.height())
 
+        #additional line for git commit test
+
+        label2.setGeometry((self.width() - label2.width()) // 2,
+                           100,
+                           label2.width(),
+                           label2.height())
+
 
 
 
