@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Project Name")
-        # 4 args x and y coordinates, height and weight of the window
+        # 4 args x and y coordinates, height and width of the window
         self.setGeometry(1050, 500, 500, 500)
         # this sets the window icon
         self.setWindowIcon(QIcon("testicon.jpg"))
