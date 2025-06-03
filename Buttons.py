@@ -6,6 +6,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setGeometry(1050, 500, 500, 500)
+        self.setWindowTitle("Buttons")
         # declare variables here then use them elsewhere
         self.button  = QPushButton("Click me!", self)
         self.label = QLabel("Hello", self)
